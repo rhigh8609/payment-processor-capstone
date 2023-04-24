@@ -1,0 +1,350 @@
+.navContent {
+    width: 100%;
+    background: #181A1C;
+    background: linear-gradient(#505456, #222426);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContentContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleLogoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navTitleContainer {
+    padding-left: 4rem;
+}
+
+.navH1 {
+    font-size: 3rem;
+    font-family: Impact;
+    color: #D4D6D7;
+}
+
+.navH2 {
+    padding-left: 4rem;
+    font-size: 2rem;
+    font-family: Tahoma;
+    color: #FFFFFF;
+}
+
+.eagleLogoContainer {
+    max-width: 200px;
+}
+
+.eagleLogo {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+.ribbonContainer {
+    margin-top: -3rem;
+    width: 98%;
+    padding-bottom: 1rem;
+}
+
+
+.navbarRibbon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D5D5D5;
+    box-shadow: rgba(0,0,0,0.701961) 0 2px 3px 0;
+    height: 55px;
+    margin: 0 0 0px;
+    width: 100%;
+    align-items: center;
+}
+
+.navbarRightText {
+    padding-right: 2rem;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #4D5153;
+}
+
+
+.navCompassTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navImageContainer {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-content: center;
+}
+
+    .navImageContainer > img {
+        object-fit:cover;
+    }
+
+.ribbonEdgesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+
+.footerLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #D5D5D5;
+    width: 80%;
+}
+
+.footerColumn {
+    padding: 0.8rem;
+}
+
+.footerColumnTitle {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+    .footerLinksContainer > div > div > a {
+        text-decoration: none;
+        color: black;
+    }
+
+.footerLink {
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid white;
+}
+
+    .footerLink > a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+.footerTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #D5D5D5;
+    width: 80%;
+}
+
+    .footerTextContainer > a {
+        padding:1rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .footerTextContainer > p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+.footerRCWLink {
+    text-decoration: none;
+    color: darkgreen;
+    margin-bottom: 0.6rem;
+}
+
+    .footerRCWLink:hover {
+        text-decoration: underline;
+    }
+
+.footerRedBar {
+    width: 100%;
+    background: red;
+    height: 10px;
+}
+
+@media (max-width: 1200px) {
+    .navContentContainer {
+        width: 100%;
+    }
+    .footerLinksContainer {
+        width: 100%;
+    }
+    .footerTextContainer {
+        width: 100%;
+    }
+    .contentContainer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .footerLinksContainer {
+        display: none;
+    }
+}
+
+
+@media (max-width: 730px) {
+    .navH1 {
+        font-size: 40px;
+    }
+
+    .navH2 {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .eagleLogoContainer {
+        display: none;
+    }
+
+    .navCompassTextContainer {
+        display: none;
+    }
+    .navContentContainer {
+        height: 15rem;
+        justify-content: space-between;
+    }
+    .titleLogoContainer {
+        padding-top: 3rem;
+    }
+
+    .navbarRibbon {
+        justify-content: center;
+    }
+}
+    .ribbon-button {
+        -webkit-transition-delay: 0;
+        -webkit-transition-duration: .4s;
+        -webkit-transition-property: background-color;
+        -webkit-transition-timing-function: ease;
+        background-color: transparent;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0;
+        transition: background-color .4s ease 0;
+    }
+
+    .ribbon-button-c-gapper {
+        padding: 0;
+    }
+
+    .ribbon-button-label {
+        -webkit-transition-delay: 0;
+        -webkit-transition-duration: .4s;
+        -webkit-transition-property: color;
+        -webkit-transition-timing-function: ease;
+        color: #181a1c;
+        display: inline-block;
+        font: normal normal normal 14px/1.4em Geneva, Tahoma, sans-serif;
+        line-height: 55px;
+        padding: 0 20px;
+        transition: color .4s ease 0;
+        text-decoration: none;
+    }
+
+    .ribbon-image {
+        display: inline-block;
+        overflow: hidden;
+        padding-left: 300px;
+        width: 190px;
+        height: 55px;
+        /*
+                                    <div id="masonicTag" class="ribbon-image" >
+                                    <img src="../images/square-compass-456x536G.png" align="left" alt="Square-Compass.png" style="height:50px;"/>
+                                </div>
+*/
+    }
+
+    .ribbon-label {
+        color: #181a1c;
+        display: inline-block;
+        text-align: left;
+        line-height: 55px;
+        width: 160px;
+        font-style: italic;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .ribbon-sub {
+        line-height: 29px;
+    }
+
+    .ribbon-container {
+        text-align: center;
+        -webkit-transition: 0.4s;
+        position: relative;
+        transition: 0.4s;
+        padding: 0;
+    }
+
+        .ribbon-container:hover {
+            background-color: #CC0006;
+            transition: background-color 0.4s ease 0s;
+
+        }
+
+    .notHover {
+        background-color: #d4d6d7 !important;
+        transition: background-color 0.0s ease 0s;
+    }
+
+    .ribbon-selected {
+        background-color: #CC0006;
+        color: #fff;
+        transition: background-color 0.4s ease 0s;
+    }
+
+    .main-menu-outer {
+        visibility: visible;
+        opacity: 1;
+        left: -17px;
+        top: 156px;
+        width: 1014px;
+        min-height: 65px;
+        position: absolute;
+    }
+
+.current-font {
+    color: #fff;
+    background: #CC0006;
+}
+
+
+
+@media (max-width: 450px) {
+
+    .navTitleContainer {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .navLinksContainer {
+        margin:0;
+        padding: 0;
+    }
+
+    .ribbon-button-label {
+        padding: 0 10px;
+    }
+}
