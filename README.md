@@ -1,6 +1,5 @@
 # payment-processor-capstone
-Payment processor prototype made for a Capstone at WCC.
-See it deployed at https://payment-processor-capstone.herokuapp.com/
+Payment processor prototype made for a Capstone at WCC. It also served as a Stripe payment portal for the non-profit I was interning with at the time.
 
 Authors
 Ryan High; Github: https://github.com/guamy540
